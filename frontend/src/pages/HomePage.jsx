@@ -7,7 +7,7 @@ import TaskForm from '../components/TaskForm/TaskForm';
 import TaskFilter from '../components/TaskFilter/TaskFilter';
 import Calendar from '../components/Calendar/Calendar';
 import MeetingForm from '../components/MeetingForm/MeetingForm';
-import Footer from '../components/footer/footer'; // Corrected import path
+import Footer from '../components/Footer/footer.jsx'; // Corrected import path
 import Modal from '../components/Modal/Modal';
 import { generateId } from '../utils/helpers';
 import './HomePage.css';
