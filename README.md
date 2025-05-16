@@ -37,7 +37,6 @@ A full-stack task and meeting management system designed with role-based access,
 * **Styling:**
 
   * **CSS Modules** — Scoped component styles.
-  * **Tailwind CSS** — Utility-first styling.
 * **Calendar UI:** [React Big Calendar](https://github.com/jquense/react-big-calendar)
 * **Date Utilities:** [date-fns](https://date-fns.org/)
 * **Icons:** [react-icons](https://react-icons.github.io/react-icons/)
