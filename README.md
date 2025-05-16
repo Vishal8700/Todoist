@@ -131,7 +131,7 @@ A full-stack task and meeting management system designed with role-based access,
 cd backend
 npm install
 # Set your Mongo URI, JWT_SECRET, CLOUDINARY config in .env
-npm start
+node server.js
 ```
 
 ### 🎨 Frontend
