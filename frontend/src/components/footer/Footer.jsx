@@ -11,7 +11,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <p className="copyright">
-          © {currentYear} TaskMaster. All rights reserved.
+          © {currentYear} Todoist. All rights reserved. Created by Vishal
         </p>
         <div className="footer-links">
           <a href="#" className="footer-link">Privacy</a>
