@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import TodoistApp from '../components/Intro/intro';
+import TodoistApp from '../components/Intro/Intro';
 
 function IntroPage() {
   return (
