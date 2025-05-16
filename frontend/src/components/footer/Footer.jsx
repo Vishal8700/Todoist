@@ -3,6 +3,10 @@ import './Footer.css';
 function Footer() {
   const currentYear = new Date().getFullYear();
   
+
+
+
+  // fix error 
   return (
     <footer className="footer">
       <div className="footer-content">
