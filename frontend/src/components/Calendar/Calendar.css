@@ -83,32 +83,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
 }
 
-.rbc-toolbar button {
-  color: var(--color-neutral-700);
-  border: 1px solid var(--color-neutral-300) !important;
-  border-radius: var(--radius-md) !important;
+.form-group {
+  margin-bottom: 1rem;
 }
 
-.rbc-toolbar button:hover {
-  background-color: var(--color-neutral-100) !important;
-  color: var(--color-neutral-900) !important;
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
-.rbc-toolbar button.rbc-active {
-  background-color: var(--color-primary-500) !important;
-  color: white !important;
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
 }
 
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -146,9 +178,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -188,11 +273,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
 }
 
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -230,9 +368,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -272,11 +463,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -314,9 +558,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -356,11 +653,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -398,9 +748,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -440,11 +843,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
 }
 
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -482,9 +938,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -524,11 +1033,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
 }
 
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -566,9 +1128,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -608,32 +1223,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
 }
 
-.rbc-toolbar button {
-  color: var(--color-neutral-700);
-  border: 1px solid var(--color-neutral-300) !important;
-  border-radius: var(--radius-md) !important;
+.form-group {
+  margin-bottom: 1rem;
 }
 
-.rbc-toolbar button:hover {
-  background-color: var(--color-neutral-100) !important;
-  color: var(--color-neutral-900) !important;
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
-.rbc-toolbar button.rbc-active {
-  background-color: var(--color-primary-500) !important;
-  color: white !important;
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
 }
 
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -671,9 +1318,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -713,11 +1413,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
 }
 
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -755,9 +1508,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -797,11 +1603,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -839,9 +1698,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -881,11 +1793,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -923,9 +1888,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -965,11 +1983,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
 }
 
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1007,9 +2078,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1049,11 +2173,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
 }
 
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1091,9 +2268,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1133,32 +2363,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
 }
 
-.rbc-toolbar button {
-  color: var(--color-neutral-700);
-  border: 1px solid var(--color-neutral-300) !important;
-  border-radius: var(--radius-md) !important;
+.form-group {
+  margin-bottom: 1rem;
 }
 
-.rbc-toolbar button:hover {
-  background-color: var(--color-neutral-100) !important;
-  color: var(--color-neutral-900) !important;
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
-.rbc-toolbar button.rbc-active {
-  background-color: var(--color-primary-500) !important;
-  color: white !important;
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
 }
 
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1196,9 +2458,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1238,11 +2553,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
 }
 
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1280,9 +2648,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1322,11 +2743,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1364,9 +2838,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1406,11 +2933,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
 }
 
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1448,9 +3028,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1490,11 +3123,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
 }
 
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1532,9 +3218,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1574,11 +3313,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
 }
 
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1616,9 +3408,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1658,9 +3503,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1700,11 +3598,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
 }
 
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1742,9 +3693,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1784,11 +3788,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
 }
 
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1826,9 +3883,62 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
 }
 
 .rbc-toolbar button {
@@ -1868,11 +3978,64 @@
   color: white !important;
 }
 
-.rbc-month-view {
-  border-radius: var(--radius-md);
-  border: 1px solid var(--color-neutral-200) !important;
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
 }
 
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1892,8 +4055,82 @@
 .rbc-month-view {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-neutral-200) !important;
+}
+
+.rbc-toolbar button {
+  color: var(--color-neutral-700);
+  border: 1px solid var(--color-neutral-300) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: var(--color-neutral-100) !important;
+  color: var(--color-neutral-900) !important;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: var(--color-primary-500) !important;
+  color: white !important;
+}
+
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
 }
 
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1913,8 +4150,82 @@
 .rbc-month-view {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-neutral-200) !important;
+}
+
+.rbc-toolbar button {
+  color: var(--color-neutral-700);
+  border: 1px solid var(--color-neutral-300) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: var(--color-neutral-100) !important;
+  color: var(--color-neutral-900) !important;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: var(--color-primary-500) !important;
+  color: white !important;
+}
+
+.edit-form {
+  max-width: 600px;
+  width: 90%;
 }
 
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1934,8 +4245,82 @@
 .rbc-month-view {
   border-radius: var(--radius-md);
   border: 1px solid var(--color-neutral-200) !important;
+}
+
+.rbc-toolbar button {
+  color: var(--color-neutral-700);
+  border: 1px solid var(--color-neutral-300) !important;
+  border-radius: var(--radius-md) !important;
+}
+
+.rbc-toolbar button:hover {
+  background-color: var(--color-neutral-100) !important;
+  color: var(--color-neutral-900) !important;
+}
+
+.rbc-toolbar button.rbc-active {
+  background-color: var(--color-primary-500) !important;
+  color: white !important;
+}
+
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
 }
 
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
 .rbc-toolbar button {
   color: var(--color-neutral-700);
   border: 1px solid var(--color-neutral-300) !important;
@@ -1949,4 +4334,256 @@
 
 .rbc-toolbar button.rbc-active {
   background-color: var(--color-primary-500) !important;
-  color: white !important}
+  color: white !important;
+}
+
+.meeting-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.meeting-popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 500px;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.meeting-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.meeting-popup-header h2 {
+  margin: 0;
+  color: #333;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.meeting-popup-content {
+  color: #444;
+}
+
+.meeting-popup-content p {
+  margin: 10px 0;
+}
+
+.meeting-popup-content ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.meeting-popup-content li {
+  margin: 5px 0;
+}
+
+.meeting-link {
+  color: var(--color-primary-500);
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.meeting-link:hover {
+  color: var(--color-primary-600);
+}
+
+.meeting-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.Medit-button,
+.Mdelete-button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.Medit-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.Mdelete-button {
+  background-color: var(--color-error-500);
+  color: white;
+}
+
+.Medit-button:hover,
+.Mdelete-button:hover {
+  opacity: 0.9;
+}
+
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
+.meeting-actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.edit-button,
+.delete-button {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.edit-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.delete-button {
+  background-color: var(--color-error-500);
+  color: white;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  opacity: 0.9;
+}
+
+.edit-form {
+  max-width: 600px;
+  width: 90%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--color-neutral-300);
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.save-button,
+.cancel-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.save-button {
+  background-color: var(--color-primary-500);
+  color: white;
+}
+
+.cancel-button {
+  background-color: var(--color-neutral-300);
+  color: var(--color-neutral-900);
+}
+
+.save-button:hover,
+.cancel-button:hover {
+  opacity: 0.9;
+}

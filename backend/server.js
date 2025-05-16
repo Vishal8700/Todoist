@@ -606,6 +606,121 @@ app.delete('/api/documents/:id', authMiddleware, async (req, res) => {
   }
 });
 
+// Add Meeting Schema
+const meetingSchema = new mongoose.Schema({
+    title: { type: String, required: true },
+    description: String,
+    startTime: { type: Date, required: true },
+    endTime: { type: Date, required: true },
+    attendees: [String], // Array of email addresses
+    location: String,
+    organizer: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true },
+    createdAt: { type: Date, default: Date.now }
+});
+
+const Meeting = mongoose.model('Meeting', meetingSchema);
+
+// Create Meeting Route
+app.post('/api/meetings', authMiddleware, async (req, res) => {
+    try {
+        const { title, description, startTime, endTime, attendees, location } = req.body;
+        
+        const meeting = new Meeting({
+            title,
+            description,
+            startTime,
+            endTime,
+            attendees,
+            location,
+            organizer: req.user.id
+        });
+
+        const savedMeeting = await meeting.save();
+        res.status(201).json(savedMeeting);
+    } catch (error) {
+        res.status(500).json({ message: 'Error creating meeting', error: error.message });
+    }
+});
+
+// Get All Meetings Route
+app.get('/api/meetings/all', authMiddleware, async (req, res) => {
+    try {
+        const meetings = await Meeting.find()
+            .populate('organizer', 'firstName lastName email')
+            .sort({ startTime: 1 });
+        res.json(meetings);
+    } catch (error) {
+        res.status(500).json({ message: 'Error fetching meetings', error: error.message });
+    }
+});
+
+// Update Meeting Route
+app.put('/api/meetings/:id', authMiddleware, async (req, res) => {
+    try {
+        const { title, description, startTime, endTime, attendees, location } = req.body;
+        
+        // Find meeting and verify organizer
+        const meeting = await Meeting.findOne({
+            _id: req.params.id,
+            organizer: req.user.id
+        });
+
+        if (!meeting) {
+            return res.status(404).json({ 
+                message: 'Meeting not found or you are not authorized to update this meeting' 
+            });
+        }
+
+        // Update meeting
+        const updatedMeeting = await Meeting.findByIdAndUpdate(
+            req.params.id,
+            {
+                title,
+                description,
+                startTime,
+                endTime,
+                attendees,
+                location
+            },
+            { new: true }
+        ).populate('organizer', 'firstName lastName email');
+
+        res.json(updatedMeeting);
+    } catch (error) {
+        res.status(500).json({ 
+            message: 'Error updating meeting', 
+            error: error.message 
+        });
+    }
+});
+
+// Delete Meeting Route
+app.delete('/api/meetings/:id', authMiddleware, async (req, res) => {
+    try {
+        // Find meeting and verify organizer
+        const meeting = await Meeting.findOne({
+            _id: req.params.id,
+            organizer: req.user.id
+        });
+
+        if (!meeting) {
+            return res.status(404).json({ 
+                message: 'Meeting not found or you are not authorized to delete this meeting' 
+            });
+        }
+
+        // Delete the meeting
+        await Meeting.findByIdAndDelete(req.params.id);
+        
+        res.json({ message: 'Meeting deleted successfully' });
+    } catch (error) {
+        res.status(500).json({ 
+            message: 'Error deleting meeting', 
+            error: error.message 
+        });
+    }
+});
+
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);

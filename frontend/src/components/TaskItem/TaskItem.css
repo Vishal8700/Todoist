@@ -172,19 +172,19 @@
   background-color: var(--color-neutral-100);
 }
 
-.edit-button {
+.Tedit-button {
   color: var(--color-primary-500);
 }
 
-.edit-button:hover {
+.Tedit-button:hover {
   background-color: var(--color-primary-100);
 }
 
-.delete-button {
+.Tdelete-button {
   color: var(--color-error-500);
 }
 
-.delete-button:hover {
+.Tdelete-button:hover {
   background-color: var(--color-error-100);
 }
 

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './MeetingForm.css';
 
 function MeetingForm({ onSubmit, editMeeting, onClose }) {
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
   const [formData, setFormData] = useState({
     title: editMeeting?.title || '',
     description: editMeeting?.description || '',
@@ -11,13 +12,52 @@ function MeetingForm({ onSubmit, editMeeting, onClose }) {
     location: editMeeting?.location || '',
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    onSubmit({
-      ...formData,
-      id: editMeeting?.id || Date.now().toString(),
-    });
-    onClose();
+    try {
+      // Get current user's information
+      const userResponse = await fetch(`${API_BASE_URL}/api/user/profile`, {
+        headers: {
+          'Authorization': `Bearer ${localStorage.getItem('jwtToken')}`
+        }
+      });
+
+      if (!userResponse.ok) {
+        throw new Error('Failed to get user information');
+      }
+
+      const currentUser = await userResponse.json();
+
+      const endpoint = editMeeting ? 
+        `${API_BASE_URL}/api/meetings/${editMeeting._id}` : 
+        `${API_BASE_URL}/api/meetings`;
+      
+      const response = await fetch(endpoint, {
+        method: editMeeting ? 'PUT' : 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${localStorage.getItem('jwtToken')}`
+        },
+        body: JSON.stringify({
+          ...formData,
+          creator: {
+            _id: currentUser._id,
+            name: `${currentUser.firstName} ${currentUser.lastName}`,
+            email: currentUser.email
+          }
+        })
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to save meeting');
+      }
+
+      const savedMeeting = await response.json();
+      onSubmit(savedMeeting);
+      onClose();
+    } catch (error) {
+      console.error('Error saving meeting:', error);
+    }
   };
 
   return (
