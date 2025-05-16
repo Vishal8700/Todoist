@@ -1,7 +1,7 @@
 # 📋 Todoist — Task & Meeting Management App
 
 A full-stack task and meeting management system designed with role-based access, file uploads, calendar scheduling, and more. Built with the MERN stack and deployed on Vercel.
-Note : Application may feels slower do to backend on vercel free tier other it can be upgraded .
+Note : Application may feels slower do to backend on vercel free tier otherwise it can be upgraded .
 
 ---
 
