@@ -1,13 +1,13 @@
 
 import { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import Header from '../components/Header/Header';
-import TaskList from '../components/TaskList/TaskList';
+import Header from '../components/Header/Header.jsx';
+import TaskList from '../components/TaskList/TaskList.jsx';
 import TaskForm from '../components/TaskForm/TaskForm';
 import TaskFilter from '../components/TaskFilter/TaskFilter';
 import Calendar from '../components/Calendar/Calendar';
 import MeetingForm from '../components/MeetingForm/MeetingForm';
-import Footer from '../components/Footer/Footer';
+import Footer from '../components/Footer/Footer.jsx'; // Corrected import path
 import Modal from '../components/Modal/Modal';
 import { generateId } from '../utils/helpers';
 import './HomePage.css';
@@ -164,13 +164,10 @@ function HomePage() {
 
   // Function to handle task creation after TaskForm submits successfully
   const handleTaskAdded = (newTask) => {
-      // TaskForm's handleSubmit already created the task in the backend.
-      // We just need to add it to the state here.
+     
       setTasks(prevTasks => [...prevTasks, newTask]);
-      // If the new task is assigned to the current user, add it to assignedTasks too
-      // This requires knowing the current user's ID, which we can get from the auth context or refetch
-      // For simplicity, let's refetch assigned tasks after adding a new task.
-      fetchAssignedTasks(); // Refetch assigned tasks to ensure list is up-to-date
+
+      fetchAssignedTasks(); 
       setShowTaskForm(false);
   };
 
@@ -422,8 +419,7 @@ function HomePage() {
 }
 
 HomePage.propTypes = {
-  // Add props if needed in the future
+  //not needed much more
 };
 
 export default HomePage;
-// Removed the redundant updateTaskStatus function here
