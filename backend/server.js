@@ -284,14 +284,14 @@ app.patch('/api/tasks/assigned/:id', authMiddleware, async (req, res) => {
         }
         if (assignment.taskId) {
             if (status === 'completed') {
-                const allAssignments = await TaskAssignment.find({ taskId: assignment.taskId });
+                // const allAssignments = await TaskAssignment.find({ taskId: assignment.taskId });
                 
-                const completedAssignments = await TaskAssignment.find({ 
-                    taskId: assignment.taskId, 
-                    status: 'completed' 
-                });
+                // const completedAssignments = await TaskAssignment.find({ 
+                //     taskId: assignment.taskId, 
+                //     status: 'completed' 
+                // });
                 
-                if (allAssignments.length === completedAssignments.length) {
+                if (status === 'completed') {
                     await Task.findByIdAndUpdate(
                         assignment.taskId,
                         { status: 'completed' }
