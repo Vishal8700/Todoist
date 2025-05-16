@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import React from 'react';
-import './intro.css';
+import './Intro.css';
 import { useNavigate } from 'react-router-dom';
 // SVG Components
 import { Link } from 'react-router-dom';
