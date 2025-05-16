@@ -1,0 +1,58 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.task-section {
+  background-color: white;
+  border-radius: var(--radius-md);
+  padding: var(--space-3);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-normal) ease;
+}
+
+.task-section:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.section-title {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-3);
+  color: var(--color-neutral-700);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.task-count {
+  font-size: 0.8rem;
+  background-color: var(--color-neutral-200);
+  border-radius: 10px;
+  padding: 2px 8px;
+  color: var(--color-neutral-700);
+}
+
+.overdue-section .section-title {
+  color: var(--color-error-600);
+}
+
+.overdue-section .task-count {
+  background-color: var(--color-error-100);
+  color: var(--color-error-600);
+}
+
+.completed-section .section-title {
+  color: var(--color-success-600);
+}
+
+.completed-section .task-count {
+  background-color: var(--color-success-100);
+  color: var(--color-success-600);
+}
+
+@media (max-width: 768px) {
+  .task-section {
+    padding: var(--space-2);
+  }
+}

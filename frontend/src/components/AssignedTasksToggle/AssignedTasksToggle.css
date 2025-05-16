@@ -1,0 +1,158 @@
+.assigned-tasks-toggle {
+    margin-bottom: 24px;
+    border: 1px solid #eef5c6;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s ease;
+}
+
+.assigned-tasks-toggle:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.toggle-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20px;
+    background-color: #fbffe8;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+.toggle-header:hover {
+    background-color: #f6f8df;
+}
+
+.toggle-header h2 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.toggle-icon {
+    color:#e04738;
+    font-size: 0.85rem;
+    transition: transform 0.3s ease, color 0.2s ease;
+}
+
+.toggle-icon.open {
+    transform: rotate(180deg);
+    color: #3498db;
+}
+
+.assigned-tasks-list {
+    padding: 16px 20px;
+    border-top: 1px solid #eef0f5;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+.assigned-task-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.assigned-task-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+.assigned-task-card:last-child {
+    margin-bottom: 0;
+}
+
+.assigned-task-card h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #3e3e3d;
+}
+
+.assigned-task-card p {
+    margin-bottom: 12px;
+    font-size: 0.95rem;
+    color: #4a5568;
+    line-height: 1.5;
+}
+
+.assigned-task-card .task-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 0.85rem;
+    color: #718096;
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px dashed #edf2f7;
+}
+
+.assigned-task-card .task-details span {
+    display: flex;
+    align-items: center;
+}
+
+.assigned-task-card .task-status {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.assigned-task-card .task-status select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #cbd5e0;
+    font-size: 0.9rem;
+    background-color: #f8fafc;
+    color: #4a5568;
+    cursor: pointer;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23718096' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px;
+    padding-right: 32px;
+}
+
+.assigned-task-card .task-status select:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.15);
+}
+
+/* Status-specific styling */
+.assigned-task-card .task-status select option[value="pending"] {
+    color: #e67e22;
+}
+
+.assigned-task-card .task-status select option[value="in-progress"] {
+    color: #3498db;
+}
+
+.assigned-task-card .task-status select option[value="completed"] {
+    color: #2ecc71;
+}
+
+/* Add responsive adjustments */
+@media (max-width: 768px) {
+    .toggle-header h2 {
+        font-size: 1rem;
+    }
+    
+    .assigned-task-card .task-details {
+        flex-direction: column;
+        gap: 6px;
+    }
+    
+    .assigned-task-card h3 {
+        font-size: 1rem;
+    }
+}
