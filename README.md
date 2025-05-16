@@ -145,10 +145,8 @@ npm run dev
 ---
 
 ## 🌐 Live Demo
-
-> Coming soon / Deployed on Vercel: [deplument link]([https://frontend-url.vercel.app](https://todoist-nsut.vercel.app/))
-> Youtube Video [https://youtu.be/uMLT7Uvdm8w](https://youtu.be/uMLT7Uvdm8w)
-
+✅ Deployed on Vercel: https://todoist-nsut.vercel.app
+🎥 YouTube Video Demo: https://youtu.be/uMLT7Uvdm8w
 ---
 
 ## 🧑‍💻 Contributing
