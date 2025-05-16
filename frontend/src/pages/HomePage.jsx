@@ -7,13 +7,13 @@ import TaskForm from '../components/TaskForm/TaskForm';
 import TaskFilter from '../components/TaskFilter/TaskFilter';
 import Calendar from '../components/Calendar/Calendar';
 import MeetingForm from '../components/MeetingForm/MeetingForm';
-import Footer from '../components/Footer/footer.jsx'; // Corrected import path to match file system casing
+import Footer from '../components/Footer/Footer.jsx'; // Corrected import path to match file system casing
 import Modal from '../components/Modal/Modal';
 import { generateId } from '../utils/helpers';
 import './HomePage.css';
 import MemberList from '../components/MemberList/MemberList';
 import AssignedTasksToggle from '../components/AssignedTasksToggle/AssignedTasksToggle'; // Import the new component
-//just added 
+
 /**
  * HomePage component that serves as the main page of the application.
  * Manages tasks and meetings with calendar integration.
